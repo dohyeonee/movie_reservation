@@ -11,4 +11,14 @@ public class HomeController {
 	public String home() {
 		return "index";
 	}
+	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String login() {
+		return "login";
+	}
+	
+	@RequestMapping(value = "/join_form", method = RequestMethod.GET)
+	public String join_form() {
+		return "join_form";
+	}
 }

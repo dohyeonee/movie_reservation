@@ -1,0 +1,42 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #508bfc;
+}
+
+div {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+div input, button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    width: 200px;
+}
+
+div button {
+    background-color: #0275d8;
+    color: white;
+    cursor: pointer;
+    width: 225px;
+}
+
+div p {
+    font-size: 30px;
+    padding: 10px;
+}

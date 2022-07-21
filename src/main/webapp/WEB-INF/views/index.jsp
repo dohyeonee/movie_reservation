@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,14 +21,14 @@
             <div class="header_right">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="<c:url value="/login" />">
                             <i class="fas fa-lock"></i>
                             <span>로그인</span>
                         </a>
                     </li>
                         
                     <li>
-                        <a href="#">
+                        <a href="<c:url value="/join_form" />">
                             <i class="fas fa-user"></i>
                             <span>회원가입</span>
                         </a>
@@ -55,12 +56,24 @@
         <div class="nav">
             <div class="nav_left">
                 <ul>
-                    <a href="#"><li class="nav_item">영화</li></a>
-                    <a href="#"><li class="nav_item">극장</li></a>
-                    <a href="#"><li class="nav_item">예매</li></a>
-                    <a href="#"><li class="nav_item">스토어</li></a>
-                    <a href="#"><li class="nav_item">이벤트</li></a>
-                    <a href="#"><li class="nav_item">혜택</li></a>
+                    <li class="nav_item">
+                    	<a href="#">영화</a>
+                    </li>
+                    <li class="nav_item">
+                    	<a href="#">극장</a>
+                    </li>
+                    <li class="nav_item">
+                    	<a href="#">예매</a>
+                    </li>
+                    <li class="nav_item">
+                    	<a href="#">스토어</a>
+                    </li>
+                    <li class="nav_item">
+                    	<a href="#">이벤트</a>
+                    </li>
+                    <li class="nav_item">
+                    	<a href="#">혜택</a>
+                    </li>
                 </ul>
             </div>
 
